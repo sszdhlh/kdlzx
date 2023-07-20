@@ -1,17 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+// 入口文件，在项目中，就像一个清单一样
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// 引入核心组件
+import "./pages/App"
+// import "./test/tetstBtn"   //test
+
+// 引入初始化样式
+import "normalize.css"
+
+// 引入全局样式
+import "./assets/styles/core.less"
+
+//各种引入
+//ant mobile样式引入
+import 'antd-mobile/dist/antd-mobile.css'; // 导入样式文件
+
+
+
+
+

@@ -1,0 +1,69 @@
+@import "./global.less";
+.home-page{
+    background-color: #fff;
+
+        a{
+            margin: 0 0;
+        }
+    p{
+            text-align: justify;
+            padding: 5px 0 5px;
+        }
+
+    .home-tab{
+        margin-top: 5px;
+        .am-list-item .am-list-line{
+            padding-right: 0;
+            margin-right: 15px;
+        }
+        .am-tabs-default-bar-tab-active{
+            color:@base-color;
+        }
+        .am-tabs-default-bar-underline{
+            border-color:@base-color;
+        }
+        .am-tabs-default-bar-tab{
+            font-size:18px;
+        }
+    
+        .home-tab-item{
+            margin: 10px 15px 5px;
+            .home-tab-item-left{
+                flex:0 1 auto;
+                width: 120px;
+                img{
+                    width: 120px;
+                    display: block;
+                }
+            }    
+    
+            .home-tab-item-right{
+                h3{
+                    font-size:16px;
+                    line-height:1.4em;
+                    margin-top: 0;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 2;
+                }
+                .txt_info{
+                    color:#ccc;
+                    .right{
+                        float: right;
+                    }
+                    i{
+                        margin-right: 6px;
+                    }
+                    span{
+                        color:#aaa;
+                    }
+                }
+                
+            }
+        }
+        
+    }
+}
+
